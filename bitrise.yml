@@ -7,8 +7,6 @@ app:
       is_expand: false
     GRADLE_BUILD_FILE_PATH: build.gradle
 trigger_map:
-- push_branch: release
-  workflow: base-deploy
 workflows:
   release-deploy:
     steps:
